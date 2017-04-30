@@ -2,18 +2,18 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title> Отели Седона  </title>
+  <title>Отели Седона</title>
 </head>
 <body>
 <header class="main-header">
   <div <div class="container">
     <nav class="main-navigation">
       <ul class="main-navigation-list">
-        <li class="main-navigation-item">  <a href="#"> Информация </a> </li>
-        <li class="main-navigation-item">  <a href="#"> Фото и видео </a> </li>
-        <li class="main-navigation-logo">  <img src="http://placehold.it/150x100" alt="City of Sedona"> </li>
-        <li class="main-navigation-item">  <a href="#"> Карта штата </a> </li>
-        <li class="main-navigation-item">  <a href="#"> Гостиницы </a> </li>
+        <li class="main-navigation-item"><a href="#">Информация</a></li>
+        <li class="main-navigation-item"><a href="#">Фото и видео</a></li>
+        <li class="main-navigation-logo"><img src="http://placehold.it/150x100" alt="City of Sedona"></li>
+        <li class="main-navigation-item"><a href="#">Карта штата</a></li>
+        <li class="main-navigation-item"><a href="#">Гостиницы</a></li>
       </ul>
     </nav>
   </div>
@@ -21,33 +21,33 @@
 <form class="form">
   <fieldset class="fieldset">
     <legend "fieldset-title">Инфраструктура:</legend>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">Бассейн</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">Бассейн</span>
     </label>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">Парковка</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">Парковка</span>
     </label>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">wi-fi</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">wi-fi</span>
     </label>
   </fieldset>
 
   <fieldset class="fieldset">
     <legend "fieldset-title">Тип жилья:</legend>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">Гостиница</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">Гостиница</span>
     </label>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">Мотель</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">Мотель</span>
     </label>
-    <label class="field-text">
-      <input class="field-text-input" type="checkbox"/>
-      <span class="field-text-label">Апартаменты</span>
+    <label class="field-checkbox">
+      <input class="field-checkbox-input" type="checkbox"/>
+      <span class="field-checkbox-label">Апартаменты</span>
     </label>
   </fieldset>
   <!-- под расчет стоимости -->
@@ -63,7 +63,7 @@
   <p class="breadcrumbs-sorting">Сортировка:</p>
   <p class="breadcrumbs-price">По цене</p>
   <a class="breadcrumbs-type" href="#">По типу</a>
-  <a class="breadcrumbs-rating" href="#">По рейтингу</a>
+  <a class="breadcrumbs-type" href="#">По рейтингу</a>
 </section>
 
 <div class="products">
@@ -75,16 +75,16 @@
       <h3 class="product-title">Amara resort & Spa</h3>
       <p class="product-text">Гостиница</p>
       <p class="product-price">от 3500 р.</p>
-      <form class="buttom">
-        <button type="submit" class="button">Подробнее</button>
-        <button type="submit" class="button">Забронировать</button>
-      </form>
+      <div class="description-switch">
+        <a class="description-switch-1" href="#">Подробнее</a>
+        <a class="description-switch-2" href="#">Забронировать</a>
+      </div>
       <div class="product-rating">
         <div class="product-stars">
-            <img src="http://placehold.it/150x100" alt="stars">
+        <!-- background-image: -->
         </div>
         <div class="product-count">
-          <p class="rating-text">Рейтинг 8,5</p>
+          <span class="product-count-text">Рейтинг 8,5</span>
         </div>
       </div>
     </div>
@@ -98,16 +98,16 @@
       <h3 class="product-title">Desert Quail inn</h3>
       <p class="product-text">Мотель</p>
       <p class="product-price">от 2000 р.</p>
-      <form class="buttom">
-        <button type="submit" class="button">Подробнее</button>
-        <button type="submit" class="button">Забронировать</button>
-      </form>
+      <div class="description-switch">
+        <a class="description-switch-1" href="#">Подробнее</a>
+        <a class="description-switch-2" href="#">Забронировать</a>
+      </div>
       <div class="product-rating">
         <div class="product-stars">
-            <img src="http://placehold.it/150x100" alt="stars">
+            <!-- background-image: -->
         </div>
         <div class="product-count">
-          <p class="rating-text">Рейтинг 8,9</p>
+          <span class="product-count-text">Рейтинг 8,9</span>
         </div>
       </div>
     </div>
@@ -121,16 +121,16 @@
       <h3 class="product-title">Villas at Poco Diablo</h3>
       <p class="product-text">Апартаменты</p>
       <p class="product-price">от 4000р.</p>
-      <form class="buttom">
-        <button type="submit" class="button">Подробнее</button>
-        <button type="submit" class="button">Забронировать</button>
-      </form>
+      <div class="description-switch">
+        <a class="description-switch-1" href="#">Подробнее</a>
+        <a class="description-switch-2" href="#">Забронировать</a>
+      </div>
       <div class="product-rating">
         <div class="product-stars">
-            <img src="http://placehold.it/150x100" alt="stars">
+              <!-- background-image: -->
         </div>
         <div class="product-count">
-            <p class="rating-text">Рейтинг 9,2</p>
+            <span class="product-count-text">Рейтинг 9,2</span>
         </div>
       </div>
     </div>
@@ -140,16 +140,16 @@
 <footer class="main-footer">
   <div class="container">
     <section class="footer-visitsedona">
-      <p> <a class="visitsedona-link" href="#">#Visitsedona</a> </p>
+      <p><a class="visitsedona-link" href="#">#Visitsedona</a></p>
     </section>
     <section class="footer-social">
-      <p> <a class="social-btn social-btn-vk" href="#">Вконтакте</a> </p>
-      <p> <a class="social-btn social-btn-fb" href="#">Фейсбук</a> </p>
-      <p> <a class="social-btn social-btn-inst" href="#">Инстаграм</a> </p>
+      <p><a class="social-btn social-btn-vk" href="#">Вконтакте</a></p>
+      <p><a class="social-btn social-btn-fb" href="#">Фейсбук</a></p>
+      <p><a class="social-btn social-btn-inst" href="#">Инстаграм</a></p>
     </section>
     <section class="footer-copyright">
-      <p> <a class="btn" href="https://htmlacademy.ru"> <img src="http://placehold.it/150x100" alt="html academy"></a>
-    </section> </p>
+      <p><a class="btn" href="https://htmlacademy.ru"><img src="http://placehold.it/150x100" alt="html academy"></a>
+    </section></p>
   </div>
 </footer>
 </body>
