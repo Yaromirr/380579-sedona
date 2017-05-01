@@ -2,13 +2,113 @@ body {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
-  font-weight: 100%;
-  font-family: "myriad pro","PT Sans", "Arial", serif;
+  font-weight: 100px;
+  font-family:"PT Sans", "Arial", serif;
+  min-width: 1280px;
+  min-height: 2762px;
 }
 h2 {
   font-size: 21px;
   line-height: 26px;
   color: #333333;
-  font-weight: 100%;
+  font-weight: 100px;
   font-family:"PT Sans", "Arial",;
+}
+.main-header {
+background: red;
+  /* Только для оформления сетки */
+  min-height: 70px;
+
+}
+.container {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background: blue;
+
+
+}
+.main-navigation {
+    background: yellow;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+.main-navigation-list {
+
+}
+.container-logo {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background: green;
+
+}
+.logo {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.page-heading {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.content {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.reasons {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.reason {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.reason-about {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.reason-picture {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.reasons-row {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.search {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.form payment {
+  /* Только для оформления сетки */
+  min-height: 70px;
+  background:
+}
+.form {
+
+}
+.field-text {
+
+}
+.main-footer {
+
+}
+.footer-container {
+
+}
+.footer-visitsedona {
+
+}
+.footer-social {
+
+}
+.footer-copyright {
+
 }
