@@ -6,6 +6,7 @@ body {
   font-family:"PT Sans", "Arial", serif;
   min-width: 1280px;
   min-height: 2762px;
+    outline: 1px solid black;
 }
 h2 {
   font-size: 21px;
@@ -15,100 +16,61 @@ h2 {
   font-family:"PT Sans", "Arial",;
 }
 .main-header {
-background: red;
-  /* Только для оформления сетки */
-  min-height: 70px;
-
+  outline: 1px solid red;
 }
 .container {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background: blue;
+  width: 1260px;
+  height: 60px;
+  margin: 0 auto;
+  outline: 1px solid blue;
 
 
 }
 .main-navigation {
-    background: yellow;
-  /* Только для оформления сетки */
-  min-height: 70px;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  outline: 1px solid black;
+  float: left;
 }
 .main-navigation-list {
 
 }
 .container-logo {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background: green;
-
+  width: 140px;
+  height: 71px;
+  margin: 0 auto;
+  outline: 1px solid blue;
 }
-.logo {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
+.index-logo {
+  width:1200px;
+  height: 530px;
+  margin: 0 auto;
+  outline: 1px solid blue;
 }
 .page-heading {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.content {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  outline: 1px solid blue;
 }
 .reasons {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
+  width: 1260px;
+  height: 1100px;
+  margin: 0 auto;
+  outline: 1px solid blue;
 }
 .reason {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.reason-about {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  outline: 1px solid red;
+
 }
 .reason-picture {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.reasons-row {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.search {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.form payment {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background:
-}
-.form {
-
-}
-.field-text {
-
-}
-.main-footer {
-
-}
-.footer-container {
-
-}
-.footer-visitsedona {
-
-}
-.footer-social {
-
-}
-.footer-copyright {
-
+  width: 780px;
+  height: 250px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  
 }
