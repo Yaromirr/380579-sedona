@@ -2,75 +2,200 @@ body {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
-  font-weight: 100px;
-  font-family:"PT Sans", "Arial", serif;
+  font-weight: 100;
+  font-family: "PT Sans", "Arial", serif;
   min-width: 1280px;
   min-height: 2762px;
     outline: 1px solid black;
 }
+
 h2 {
   font-size: 21px;
   line-height: 26px;
   color: #333333;
-  font-weight: 100px;
-  font-family:"PT Sans", "Arial",;
+  font-weight: 100;
+  font-family: "PT Sans", "Arial",;
 }
+
 .main-header {
   outline: 1px solid red;
+
 }
+
 .container {
   width: 1260px;
   height: 60px;
   margin: 0 auto;
   outline: 1px solid blue;
 
-
 }
+
 .main-navigation {
   width: 1200px;
   height: 60px;
   margin: 0 auto;
   outline: 1px solid black;
   float: left;
+
 }
+
 .main-navigation-list {
 
 }
+
 .container-logo {
   width: 140px;
   height: 71px;
   margin: 0 auto;
   outline: 1px solid blue;
 }
+
 .index-logo {
   width:1200px;
   height: 530px;
   margin: 0 auto;
   outline: 1px solid blue;
 }
+
 .page-heading {
   width: 1200px;
   height: 200px;
   margin: 0 auto;
   outline: 1px solid blue;
 }
+
 .reasons {
   width: 1260px;
   height: 1100px;
   margin: 0 auto;
   outline: 1px solid blue;
 }
+
 .reason {
   width: 1200px;
   height: 250px;
   margin: 0 auto;
   outline: 1px solid red;
-
 }
-.reason-picture {
+
+.one-reason-about {
+  width: 390px;
+  height: 250px;
+  float: left;
+  outline: 1px solid red;
+}
+
+.one-reason-picture {
   width: 780px;
   height: 250px;
-  margin: 0 auto;
+  float: right;
   outline: 1px solid red;
-  
+}
+
+.features {
+  width: 1190px;
+  height: 328px;
+  margin: 0 auto;
+  outline: 1px solid blue;
+}
+
+.features-item {
+  width: 390px;
+  height: 328px;
+  float: left;
+  margin-right: 5px;
+  outline: 1px solid red;
+}
+
+.features-item: last-child {
+  margin-right: 0;
+}
+
+.two-reason-about {
+  width: 390px;
+  height: 250px;
+  float: right;
+  outline: 1px solid red;
+  margin-left: 30px;
+}
+
+.two-reason-picture {
+  width: 780px;
+  height: 250px;
+  float: right;
+  outline: 1px solid red;
+}
+
+.reasons-row {
+  margin-top: 10px;
+  width: 390px;
+  height: 250px;
+  float: left;
+  margin-right: 5px;
+  outline: 1px solid red;
+}
+
+.reasons-row: last-child {
+  margin-right: 0;
+}
+
+.search {
+margin-top: 20px;
+width: 1200px;
+height: 178px;
+margin: 0 auto;
+outline: 1px solid blue;
+}
+
+.info {
+width: 1200px;
+height: 470px;
+margin-top: 10px;
+margin: 0 auto;
+outline: 1px solid blue;
+}
+
+.form {
+width: 576px;
+height: 482px;
+margin: 0 auto;
+outline: 1px solid red;
+}
+
+.main-footer {
+width: 1200px;
+height: 120px;
+margin: 0 auto;
+margin-top: 10px;
+outline: 1px solid blue;
+}
+
+.footer-container {
+  outline: 1px solid green;
+  width: 1180px;
+  height: 110px;
+  float: left;
+
+}
+.footer-visitsedona {
+  outline: 1px solid red;
+  width: 380px;
+  height: 100px;
+  float: left;
+
+}
+
+.footer-social {
+  outline: 1px solid red;
+  width: 380px;
+  height: 110px;
+  margin-left: 5px;
+}
+
+.footer-copyright {
+  outline: 1px solid red;
+  width: 380px;
+  height: 110px;
+  float: right;
+
 }
